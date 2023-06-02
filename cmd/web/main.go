@@ -7,13 +7,13 @@ import (
 	"time"
 
 	"github.com/alexedwards/scs/v2"
-	"github.com/harishkrishnan24/bookings/pkg/config"
-	"github.com/harishkrishnan24/bookings/pkg/handlers"
-	"github.com/harishkrishnan24/bookings/pkg/render"
+	"github.com/harishkrishnan24/bookings/internal/config"
+	"github.com/harishkrishnan24/bookings/internal/handlers"
+	"github.com/harishkrishnan24/bookings/internal/render"
 )
 
 const portNumber = ":8080"
-	
+
 var app config.AppConfig
 var session *scs.SessionManager
 
